@@ -1,0 +1,82 @@
+<body onload="renderizarNoticias()">
+    <header>
+        <div class="container-grid posicionamento-header container">
+            <a href="" class="logo"><img src="img/logo.png" alt="Logo" height="120px" width="150px"></a>
+            <nav id="menu" class="menu">
+                    <a href="index.html">Home</a>
+                    <a href="">Notícias</a>
+                    <a href="">Mobile</a>
+                    <a href="">Campeonatos</a>
+                    <a href="login.html" class="menu-entrar">Entrar</a>
+            </nav>
+            <!-- <a href="#" onClick="mostrarMenu()"><img class="barras" src="img/menubarras.png" alt=""></a> -->
+            <a href="#" id="barras"><img id="barras" class="barras" src="img/menubarras.png" alt=""></a>
+        </div>
+    </header>
+    <div class="banner">
+        <div id="carrosel" class="banner-img container">
+            <img class="main-banner" src="img/banner1.png" alt="banner1">
+            <img class="banner-opicional" src="img/banner2.png" alt="banner2">
+            <img src="img/banner3.png" alt="banner3">
+            <img src="img/banner4.png" alt="banner4">
+        </div>
+    </div>
+    <div class="noticias">
+        <div class="texto-news-noticias container">
+            <h1>News</h1>
+        </div>
+        <div id="espaco-noticia" class="espaco-noticia-banner container">
+            <!-- <div class="card-noticias">
+                <img src="img/noticias1.jpg" alt="noticia">
+                <h5>Título da notícia</h3>
+                <p>Não obstante, a consolidação das estruturas deve passar por modificações independentemente de todos
+                     os recursos funcionais envolvidos.</p>
+            </div>
+            <div class="card-noticias">
+                <img src="img/noticias2.jpg" alt="noticia">
+                <h5>Título da notícia</h3>
+                <p>Não obstante, a consolidação das estruturas deve passar por modificações independentemente de todos
+                     os recursos funcionais envolvidos.</p>
+            </div>
+            <div class="card-noticias">
+                <img src="img/noticias3.jpg" alt="noticia">
+                <h5>Título da notícia</h3>
+                <p>Não obstante, a consolidação das estruturas deve passar por modificações independentemente de todos
+                     os recursos funcionais envolvidos.</p>
+            </div> -->
+        </div>
+        <div class="texto-vermais-noticias container">
+            <a href="">Ver Mais</a>
+        </div>
+    </div>
+    <footer>
+        <div class="links-footer">
+            <div class="footer-menu container">
+                <a href="">Pagina Inicial</a>
+                <a href="">Contato</a>
+                <a href="">Publicidade</a>
+                <a href="">Sobre</a>
+            </div>
+            <div class="footer-suporte-email container">
+                <h2>Gostaria de receber notícias em seu E-mail?</h2>
+                <form action="">
+                    <input id="campo-email" type="email" placeholder="E-Mail">
+                    <button class="enviar-email" onclick="enviarEmail()">Cadastrar</button>
+                </form>
+            </div>
+        </div>
+    </footer>
+    <script>
+        // let menu = document.getElementById("menu");
+        // function mostrarMenu(){
+        //     if(menu.style.display != "flex"){
+        //         menu.style.display = "flex"
+        //     }else{
+        //         menu.style.display = "none"
+        //     }
+        // }
+    </script>
+    <script src="js/jquery-3.6.0.js"></script>
+    <script src="js/scripts.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
